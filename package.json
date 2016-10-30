@@ -20,5 +20,5 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/davidwu226/mongoose-backref.git"
-  },
+  }
 }
