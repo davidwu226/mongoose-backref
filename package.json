@@ -16,5 +16,9 @@
   },
   "devDependencies": {
     "co": "^4.6.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/davidwu226/mongoose-backref.git"
+  },
 }
