@@ -1,0 +1,20 @@
+{
+  "name": "mongoose-backref",
+  "version": "1.0.0",
+  "description": "A back reference plugin for mongoosejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongodb"
+  ],
+  "author": "mongoose",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^4.6.5"
+  },
+  "devDependencies": {
+    "co": "^4.6.0"
+  }
+}
