@@ -183,7 +183,7 @@ function postsave() {
         let model = mongoose.model(model_name);
         for (let id in this._backref_changes[model_name]) {
           let update = this._backref_changes[model_name][id];
-          let query = model.findOneAndUpdate({_id: new mongoose.Types.ObjectId(id)}, update,
+          let query = model.findOneAndUpdate({_id: id}, update,
                                              function(err, backref_doc) {
                                                if (err) {
                                                  throw new Error("Error during backref update: "+err);
