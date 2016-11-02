@@ -1,6 +1,6 @@
 {
   "name": "mongoose-backref",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A back reference plugin for mongoosejs",
   "main": "index.js",
   "scripts": {
